@@ -1,0 +1,94 @@
+tbody tr, tr td , tr td div{
+    transition: 0.23s;
+}
+tbody tr.closed{
+    line-height: 10px; 
+} 
+
+tbody tr td{ 
+    
+    position: relative;
+    width: 100%;
+    padding: 15px;
+    border-radius: 20px;
+}
+tr.closed td div:not(tr.closed td div:nth-child(1),tr.closed td div:nth-child(2)){
+    display: none;
+}
+tbody tr td div:nth-child(3){
+    display: flex;
+    gap: 5px;
+    align-items: center;
+}
+tbody tr td .fa-chevron-down {
+    cursor: pointer;
+    position: absolute;
+    top:10px;
+    right: 10px;
+}
+tbody tr td .task_row_header{
+    display: flex;
+
+}
+tbody tr td .fa-calendar-xmark:hover{
+
+    color:#f34340;
+}
+tbody tr td .imgContainer {
+    transition: 0.23s;
+    display: none;
+}
+tbody tr td .fa-image:hover + .imgContainer {
+    display: block;
+}
+.task_row_title{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    width: 100%;
+}
+.task_row_title .fa-diagram-successor{
+    color: #f34340;
+}
+.item_row{
+    cursor: grab;
+    background-color: #2b2f33;
+    border: none;
+    transition: 0.23s;
+    
+}
+
+.item_row td:nth-child(2),.item_row td:nth-child(3){
+    text-align: center;
+    width: 10%;
+}
+.item_row td{
+    height: 40px;
+}
+table{
+    width: 100%;
+    border-spacing: 10px;
+}
+.dragging{
+    opacity: 0.3;
+}
+.checking{
+    transition: 0.23s;
+    display: flex;
+    width: 15px;
+    height: 15px;
+    margin: 0 10px;
+    border-radius: 38%;
+    border: 3.5px solid #f34340;
+    cursor: pointer;
+}
+.checked{
+    background-color: #f34340 ;
+}
+.row{
+    transition: 0.23s;
+    display: none;
+}
+.checked .fa-check{
+    display: block;
+}

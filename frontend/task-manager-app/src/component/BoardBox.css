@@ -1,0 +1,145 @@
+.board_box_container{
+    cursor: pointer;
+    position: relative;
+    width: 70%;
+    height: fit-content;
+    border-radius: 10px;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.Meeting{
+    background-color: #4e1a4e;
+}
+.Map{
+    background-color: #1e3254;
+}
+.Food{
+    background-color: #2e322a;
+}
+.Sport{
+    background-color: #1d2f30;
+}
+.Other{
+    background-color: #282828;
+}
+.Games{
+    background-color: #3f1b0c;
+}
+.Travel{
+    background-color: #332a44;
+}
+
+
+.opened {
+    height: fit-content;
+}
+.closed{
+    height: 80px;
+}
+.board_box_container .fa-xmark{
+    position: absolute;
+    color: #69727d;
+    top: 5px;
+    right: 5px;
+    transition: 0.23s;
+}
+.board_box_container .fa-xmark:hover{
+    color: white;
+}
+.board_box_container .box_info_container{
+    width : calc(100% - 80px);
+}
+.box_icon_container{
+    margin: 15px;
+    width: 50px;
+    height: 50px;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-shadow: 0 1px 5px black;
+}
+.Meeting .box_icon_container{
+    background-color: #cc68dd;
+
+}
+.Map .box_icon_container {
+    background-color: #8db2fe;
+}
+.Food .box_icon_container{
+    background-color: #8ccd8a;
+}
+.Sport .box_icon_container{
+    background-color: #67d4da;
+}
+.Other .box_icon_container{
+    background-color: #b7b7b7;
+}
+.Games .box_icon_container{
+    background-color: #f09270;
+}
+.Travel .box_icon_container{
+    background-color: #ab86fc;
+}
+.box_icon_container .icon_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    height: 60%;
+    border-radius: 50%;
+}
+.box_icon_container .icon_container i  {
+        margin-right: 0 !important;
+}
+.Meeting .box_icon_container .icon_container {
+    background-color:#91469d;   
+}
+.Food .box_icon_container .icon_container{
+    background-color: #5a8a59;
+}
+.Other .box_icon_container .icon_container{
+    background-color: #7c7c7c;
+}
+.Games .box_icon_container .icon_container i{
+    color: #3f1d0c;
+}
+.Map .box_icon_container .icon_container i {
+    color: #557abf;
+}
+.Meeting .box_icon_container .icon_container i {
+    color: #410c44;
+}
+.Food .box_icon_container .icon_container i {
+    color: #042104;
+}
+.Sport .box_icon_container .icon_container i {
+    color: #042104;
+}
+.Other .box_icon_container .icon_container i {
+    color:#222222;
+}
+.Travel .box_icon_container .icon_container i {
+    color:#392840;
+}
+.board_box_container h4{
+    margin:15px 0 5px 0;
+}
+.Meeting .board_box_container h6{
+    color: #c3a4c3;
+}
+.board_box_container p {
+    margin: 0 25px 25px;
+}
+.board_box_container img {
+    min-width: 100%;
+    min-height: 20%;
+}
+.closed img{
+    display: none;
+}
+.closed p {
+    display: none;
+}
+

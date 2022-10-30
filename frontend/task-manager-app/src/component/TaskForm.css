@@ -1,0 +1,270 @@
+#form_container{
+    display: none;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    top: 0%;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+#form_holder{
+    position: relative;
+    background-color: #212528;
+    width: 80%;
+    height: 80%;
+
+}
+#infos_form_container{
+    display: flex;
+    width: 100%;
+    height: 100%;
+    
+}
+#close_form{
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 30px;
+    height: 30px;
+    background-color: #fd413d;
+    border-radius: 50% ;
+    position: absolute;
+    top: -15px;
+    right: -15px;
+}
+#date_form{
+    outline: none;
+    border: 0;
+    box-shadow: 0px 0px 2px black;
+    width: 100px;
+    height: 40px;
+    border-radius: 10px;
+    user-select: none;
+}
+#calendar_form_container,#inputs_form_container{
+    width: 50%;
+    height: 100%;
+}
+#inputs_form_container{
+    border-left : 1px solid #2b2f33;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+#calendar_form_container{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.input_con{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 60%;
+    height: 15%;
+
+}
+#date_displayer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 40%;
+    height: 50%;
+    border-radius:10px;
+    background-color: #2b2f33;
+    box-shadow: 0 0 2px black;
+
+}
+#task_name_input::placeholder{
+    padding-left: 10px;
+}
+
+#task_name_input,#category_select{
+    background-color: #2b2f33;
+    /* color:  black; */
+    outline: none;
+    width: 100%;
+    height: 40px;
+    border: 0;
+    border-radius: 10px;
+    transition: 0.23s;
+    /* border: 1px solid #fd413d; */
+    box-shadow: 0 0 2px black;
+    
+}
+#category_select {
+    padding-left: 10px;
+}
+.input_con span{
+    margin: 5px 0;
+}
+#category_select{
+    color: white;
+    font-family: 'Lato', 'Font Awesome 5 Free';
+    
+
+}
+.fa,option{
+    font-family: 'Lato', 'Font Awesome 5 Free';
+    /* color: black; */
+}
+
+.fa-calendar-check
+{
+    color: white;
+}
+#calendar_icon_con,#clock_icon_con{
+    margin-left:5px ;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 15px;
+    height: 15px;
+    border-radius: 10px;
+    padding: 5px ;
+    background-color: black;
+}
+.date_picker{
+    
+    display: flex;
+    justify-content: space-evenly;
+    width: 60%;
+    height: 15%;
+    align-items: center;
+    
+    
+}
+#infos_form_container input::placeholder{
+    color: white;
+}
+#time_input{
+    background-color: #2b2f33;
+    display: flex;
+    width: 40%;
+    height: 50%;
+    color: white;
+    justify-content: center;
+    align-items: center;
+    border-radius:10px;
+    box-shadow: 0 0 2px black;
+}
+#time_input input {
+
+    text-align: center;
+    outline: none;
+    width: 30%;
+    height: 30px;
+    background-color: transparent;
+    border: 0;
+}
+.desc_con{
+    height: 35%;
+}
+textarea{
+    outline: none;
+    background-color: #2b2f33;
+    border: 0;
+    color: white;
+    box-shadow: 0 0 2px black;
+    border-radius: 10px;
+    padding-left: 10px;
+    height: 100%;
+}
+.upload_send_container{
+    width: 100%;
+    height: 20%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+#upload{
+    margin-left: 10px;
+    margin-right: 10px;
+    background-color: #fd413d;
+    border: 1px solid black;
+    border-radius: 10px;
+    width: 30%;
+    cursor: pointer;
+    height: 60%;
+}
+#file{
+    display: none;
+}
+
+#task_name_input:focus,#category_select:focus {
+    transform: scale(1.02);
+    
+
+} 
+@media screen and (max-width: 830px) {
+    #form_container{
+        margin-top: 10px;
+        justify-content:flex-start;
+        align-items: center;
+    }
+    #infos_form_container{
+        flex-direction: column;
+    }
+    #inputs_form_container,.date_picker,#calendar_form_container{
+        width: 100%;
+    }
+    #close_form{
+        position: fixed;
+        top:10px;
+        right: 0px;
+    }
+    #form_holder{
+        -ms-overflow-style: none;  /* IE and Edge */
+        scrollbar-width: none;  /* Firefox */
+        position: relative;
+        background-color: #212528;
+        width: 100%;
+        height: 95%;
+        overflow-y: scroll;
+        overflow-x: hidden;
+    }
+    #time_input,#date_displayer{
+        width: 30%;
+    }
+    .input_con{
+        width: 80%;
+    }
+    
+
+
+}
+
+
+
+
+
+
+
+
+/* Chrome, Safari, Edge, Opera */
+input::-webkit-outer-spin-button,
+input::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+input[type=number] {
+  -moz-appearance: textfield;
+}
+
+.form_holder::-webkit-outer-spin-button,
+    .form_holder::-webkit-inner-spin-button {
+  -webkit-appearance: none;
+  margin: 0;
+}
+
+/* Firefox */
+    .form_holder{
+  -moz-appearance: textfield;
+}

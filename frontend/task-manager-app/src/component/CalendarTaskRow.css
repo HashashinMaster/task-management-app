@@ -1,0 +1,33 @@
+.calendar_task_row_container{
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+    overflow: hidden;
+    width: 500px;
+    cursor: pointer;
+    height: 90px;
+    border-bottom-right-radius: 10px;
+    border-top-right-radius: 10px;
+    padding: 10px;
+    background-color: #2b2f33;
+    border: 1px solid #3e464e;
+    box-shadow: 0 0 4px black;
+    border-left: 3px solid red;
+    
+}
+.completed{
+    border-left: 3px solid green;
+}
+.opened{
+    height: fit-content;
+}
+.calendar_task_row_container i {
+    margin: 0px !important;
+    margin-right: 5px !important;
+}
+@media screen and (max-width: 900px) {
+    .calendar_task_row_container    {
+        width: 95%;
+    }
+
+}

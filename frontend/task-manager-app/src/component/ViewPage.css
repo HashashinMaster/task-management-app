@@ -1,0 +1,44 @@
+.main_container{
+    width: 82%;
+    overflow-y: scroll;
+}
+.main_container::-webkit-scrollbar {
+    display: none;
+}
+#Main{
+    display: flex;
+    width: 100%;
+    height: calc(100% - 2vw);
+}
+#add_task{
+    
+    width: 35px;
+    height: 35px;
+    border-radius: 8px;
+    font-size: 20px;
+    display: block;
+    margin: 25px 0 10px auto;
+    cursor: pointer;
+    background-color: #fd413d;
+    border: 0;
+}
+.notif_container{
+    position: absolute;
+    top: 30px;
+    right: 0;
+    width: fit-content;
+    display: flex;
+    gap: 10px;
+    overflow: hidden;
+}
+
+
+@media screen and (max-width: 830px) {
+    .main_container{
+        width: 100%;
+    }
+    #search_input_container {
+        align-items: center;
+        display: flex;
+    }
+  }

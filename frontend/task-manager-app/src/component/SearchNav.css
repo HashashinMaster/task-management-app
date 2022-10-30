@@ -1,0 +1,67 @@
+.search_nav{
+    background-color: #2b2f33;
+    width: 100%;
+    height: 11vh;
+    border-radius: 15px;
+    display: flex;
+    justify-content: space-between;
+    
+}
+#search_input_container{
+    width: 70%;
+    height: 100%;
+}
+#profile_container{
+    display: flex;
+    align-items: center;
+    height: 100%;
+}
+#profileImg{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    background-color: white;
+    margin: 0 30px;
+    
+}
+#logo{
+    width: 100%;
+    border-radius: 50%;
+}
+#search_input{
+    color: white;
+    width: 90%;
+    height: 100%;
+    background-color: transparent;
+    border:0;
+    outline: none;
+    margin-left: 10px;
+
+    
+}
+.fa-magnifying-glass{
+    color:#636569;
+    transform: scale(0.8);
+    margin-left: 20px;
+}
+
+.fa-clock-rotate-left{
+    color:white;
+
+}
+nav > .fa-bars-staggered{
+    display: none;
+}
+@media screen and (max-width: 830px) {
+    
+    nav > .fa-bars-staggered{
+        display: block;
+        margin:  0 20px;
+        cursor: pointer;
+        margin-top: 4.5vh;
+        transform: scale(1.2);
+    }
+    .fa-magnifying-glass{
+        margin: 0;
+    }
+}

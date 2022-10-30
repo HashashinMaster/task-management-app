@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;1,100&display=swap');
+
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Lato', sans-serif;
+  color: white;
+}
+.App{
+  margin: 2vw 2vw 0 2vw;
+  width: 96vw;
+  height: calc(100vh - 2vw);  
+}
+body{
+  background-color: #212528;
+  overflow: hidden;
+}
+
+
