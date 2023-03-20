@@ -1,6 +1,6 @@
 # Task manager Web application
 
-A task manager app inspired by JIRA allows you to manager your daily tasks.
+A task manager app inspired by JIRA allows you to manage your daily tasks.
 # Setting up development environment
   1. Prerequisites
       - you need to have [node.js](https://nodejs.org/en/) installed in your machine
