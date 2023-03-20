@@ -19,8 +19,7 @@ A task manager app inspired by JIRA allows you to manage your daily tasks.
 
   <img src="https://user-images.githubusercontent.com/97839369/221426631-7d4986f0-b782-4f8c-8490-1d528da10d7c.png">
   
-  - You can drag the text to change it state or click on the check box:
-  <img src=https://user-images.githubusercontent.com/97839369/221428621-67ad5d24-c7ab-4e46-9344-71276222f6c4.png>
+  - You can drag the text to change it state or click on the check box
   
   - Click on drop down icon to view the information u entred about the task:
   
@@ -32,13 +31,15 @@ A task manager app inspired by JIRA allows you to manage your daily tasks.
   <img src = https://user-images.githubusercontent.com/97839369/221427778-d465c244-1f30-4f1a-86ff-8741373a05d4.png >
   
   - the days that have one or more task are highlited:
-      <img src = https://user-images.githubusercontent.com/97839369/221428335-5d3852a5-59d6-4719-b44c-b5da07a6556e.png >
+ 
+  <img src=https://user-images.githubusercontent.com/97839369/221428621-67ad5d24-c7ab-4e46-9344-71276222f6c4.png>
       
   - the completed tasks have green border:
-      <img src = https://user-images.githubusercontent.com/97839369/221428454-54d3cb70-d66b-4bba-bfde-68e9642955a7.png >
+ <img src = https://user-images.githubusercontent.com/97839369/221428475-40603cc6-8997-41e0-b43e-4a3a59d53bfd.png >
       
   - while the uncompleted tasks have red border:
-      <img src = https://user-images.githubusercontent.com/97839369/221428475-40603cc6-8997-41e0-b43e-4a3a59d53bfd.png >
+   <img src = https://user-images.githubusercontent.com/97839369/221428454-54d3cb70-d66b-4bba-bfde-68e9642955a7.png >
+     
 
   - Click on drop down icon to view the information u entred about the task:
   <img src = https://user-images.githubusercontent.com/97839369/221429117-51c56178-4b38-4d4b-b1ab-5c1ed0931f84.png >
